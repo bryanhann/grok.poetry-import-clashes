@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+import banana
+print( 'BANANA/main:', banana.__version__ )

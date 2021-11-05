@@ -1,0 +1,5 @@
+root=$(hack.root4name $1) && {
+    echo root is $root
+}||{
+    echo no root
+}

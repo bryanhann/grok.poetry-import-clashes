@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+import apple
+print( 'APPLE/main:', apple.__version__ )

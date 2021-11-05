@@ -1,0 +1,3 @@
+root=$(bch.upfind pyproject.toml)
+for ii in $(ls .)
+poetry run python3 -m apple

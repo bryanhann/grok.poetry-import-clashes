@@ -1,0 +1,23 @@
+#!
+[tool.poetry]
+name = "banana"
+version = "0.1.0"
+description = ""
+authors = ["Bryan Hann <nobody@nowhere>"]
+
+[tool.poetry.scripts]
+banana-version = 'banana.console:version'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+#apple = { path = "../apple/dist/apple-0.1.0.tar.gz" }
+apple = { path = "../apple/dist/apple-0.1.0-py3-none-any.whl"}
+
+[tool.poetry.dev-dependencies]
+#pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
